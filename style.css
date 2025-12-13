@@ -1,0 +1,268 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+  
+}
+body {
+  background-image: url("https://www.shutterstock.com/image-photo/cans-bright-paints-on-grey-260nw-2603051293.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(5px);
+   padding: 10px;
+}
+h1,
+h2 {
+  padding: 20px;
+  font-family: "Momo Signature";
+  text-shadow:3px -3px 4px rgba(88, 218, 218, 1);
+  animation: text 2s ease-in-out forwards;
+  
+}
+
+h2{
+  color: rgba(132, 71, 255, 0.742);
+}
+
+.red,
+.blue, .green, .yellow, .pink , .orange{
+  width: 300px;
+  height: 80px;
+  list-style-type: none;
+  position: relative;
+  margin-bottom: 10px;
+}
+.red li,
+.blue li, .green li, .yellow li, .pink li, .orange li{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid white;
+  color: white;
+  font-size: 16px;
+  position: absolute;
+}
+li:hover{
+ transform: scale(1.1);
+ transition: all 0.3s ease-in-out;
+ cursor: pointer;
+}
+/* red color palatte */
+.r1 {
+  background-color: #b80000;
+  left: 0;
+}
+.r2 {
+  background-color: #cc0000;
+  left: 40px;
+}
+.r3 {
+  background-color: #e00000;
+  left: 80px;
+}
+.r4 {
+  background-color: #f50000;
+  left: 120px;
+}
+.r5 {
+  background-color: #ff4747;
+  left: 160px;
+}
+.r6 {
+  background-color: #ff5c5c;
+  left: 200px;
+}
+.r7 {
+  background-color: #ff7070;
+  left: 240px;
+}
+.r8 {
+  background-color: #ffadad;
+  left: 280px;
+}
+/*   blue color palatte */
+.b1 {
+  background-color: #324376;
+  left: 0;
+}
+.b2 {
+  background-color: #435a9d;
+  left: 40px;
+}
+.b3 {
+  background-color: #4962ab;
+  left: 80px;
+}
+.b4 {
+  background-color: #546cb6;
+  left: 120px;
+}
+.b5 {
+  background-color: #6278bc;
+  left: 160px;
+}
+.b6 {
+  background-color: #7085c2;
+  left: 200px;
+}
+.b7 {
+  background-color: #8d9dce;
+  left: 240px;
+}
+.b8 {
+  background-color: #9ba9d4;
+  left: 280px;
+}
+/* green color palatte */
+.g1 {
+  background-color: #246A51;
+  left: 0;
+}
+.g2 {
+  background-color: #2A7A5E;
+  left: 40px;
+}
+.g3 {
+  background-color: #2F8969;
+  left: 80px;
+}
+.g4 {
+  background-color: #349875;
+  left: 120px;
+}
+.g5 {
+  background-color: #39A781;
+  left: 160px;
+}
+.g6 {
+  background-color: #46bd94;
+  left: 200px;
+}
+.g7 {
+  background-color: #63caa6;
+  left: 240px;
+}
+.g8 {
+  background-color: #85D5B9;
+  left: 280px;
+}
+/* yellow color palatte */
+.y1 {
+  background-color: #EAC80B;
+  left: 0;
+}
+.y2 {
+  background-color: #F4D315;
+  left: 40px;
+}
+.y3 {
+  background-color: #F5D629;
+  left: 80px;
+}
+.y4 {
+  background-color: #F6DA3C;
+  left: 120px;
+}
+.y5 {
+  background-color: #F8E163;
+  left: 160px;
+}
+.y6 {
+  background-color: #F9E577;
+  left: 200px;
+}
+.y7 {
+  background-color: #FAE989;
+  left: 240px;
+}
+.y8 {
+  background-color: #FCF0B1;
+  left: 280px;
+}
+/* pink color palatte */
+.p1 {
+  background-color: #BC1077;
+  left: 0;
+}
+.p2 {
+  background-color: #CE1283;
+  left: 40px;
+}
+.p3 {
+  background-color: #EB1E99;
+  left: 80px;
+}
+.p4 {
+  background-color: #ED31A2;
+  left: 120px;
+}
+.p5 {
+  background-color: #F056B3;
+  left: 160px;
+}
+.p6 {
+  background-color: #F368BB;
+  left: 200px;
+}
+.p7 {
+  background-color: #F68ECC;
+  left: 240px;
+}
+.p8 {
+  background-color: #F9B4DD;
+  left: 280px;
+}
+/* orange color palatte */
+.o1 {
+  background-color: #AF551D;
+  left: 0;
+}
+.o2 {
+  background-color: #C15D1F;
+  left: 40px;
+}
+.o3 {
+  background-color: #D36622;
+  left: 80px;
+}
+.o4 {
+  background-color: #DD702C;
+  left: 120px;
+}
+.o5 {
+  background-color: #E07C3E;
+  left: 160px;
+}
+.o6 {
+  background-color: #E28850;
+  left: 200px;
+}
+.o7 {
+  background-color: #E8A073;
+  left: 240px;
+}
+.o8 {
+  background-color: #EBAC84;
+  left: 280px;
+}
+@keyframes text{
+  from{
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
